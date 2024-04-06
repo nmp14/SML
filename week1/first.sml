@@ -8,6 +8,9 @@ val z = (x + y) + (y + 2);
 
 val q = z + 1;
 
+(* need to use tilde, not minus sign for negative numbers or negation *)
+val neg = ~ 5;
+
 val asb_of_z = if z < 0 then 0 - z else z;
 
 val abs_of_z_simpler = abs z;
